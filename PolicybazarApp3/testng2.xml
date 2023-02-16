@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite1PolicyBazar">
+  <test thread-count="5" name="TestForURL">
+    <classes>
+      
+      
+      <class name="testForPolicy.PolicyBazar">
+      <methods>
+      <include name="verifyView"></include>
+      
+      <exclude name="ClickOnHealthInsurance"></exclude>
+      </methods>
+      
+      
+      </class>
+      <class name="testForPolicy.TestNgHealthInsure">
+      <methods>
+      
+      
+      <include name="CityInfo"></include>
+      <exclude name="HealthInsurPage"></exclude>
+      
+      </methods>
+      </class>
+     
+    </classes>
+  </test> <!-- TestForURL -->
+</suite> <!-- Suite1PolicyBazar -->
