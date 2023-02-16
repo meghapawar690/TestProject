@@ -41,8 +41,9 @@ public class LoginOrSignUpPage {
 				userName.sendKeys("Tejashree");
 			}
 			
-			public void sendPassword() 
+			public void sendPassword() throws InterruptedException 
 			{
+				Thread.sleep(3000);
 				password.sendKeys("0714");
 			}
 			

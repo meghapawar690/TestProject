@@ -43,6 +43,7 @@ public class TestNgTestClass {
 		
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(8000, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(8000, TimeUnit.SECONDS);
 		
 	}
 	
@@ -54,6 +55,7 @@ public class TestNgTestClass {
 		driver.get("https://www.facebook.com/");
 		LoginOrSignUpPage loginOrSignUpPage=new LoginOrSignUpPage(driver);
 		loginOrSignUpPage.clickCreatenewacc();
+		driver.manage().timeouts().implicitlyWait(8000, TimeUnit.SECONDS);
 	}
 	
 	@Test	

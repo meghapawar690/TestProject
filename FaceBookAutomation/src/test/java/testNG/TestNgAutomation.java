@@ -60,6 +60,7 @@ public class TestNgAutomation {
 		driver.get("https://www.facebook.com/");
 		LoginOrSignUpPage loginOrSignUpPage=new LoginOrSignUpPage(driver);
 		loginOrSignUpPage.clickCreatenewacc();
+		driver.manage().timeouts().implicitlyWait(8000, TimeUnit.SECONDS);
 	}
 	
 	@Test	

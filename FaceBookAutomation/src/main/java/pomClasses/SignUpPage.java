@@ -122,8 +122,9 @@ public class SignUpPage {
 	{
 		cookiesPolicy.click();
 	}
-	public void clickOnSignUpButton()
+	public void clickOnSignUpButton() throws InterruptedException
 	{ 
+		Thread.sleep(3000);
 		signUpButton.click();
 		
 	}
