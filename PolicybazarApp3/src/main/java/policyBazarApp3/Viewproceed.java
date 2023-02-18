@@ -45,17 +45,17 @@ public class Viewproceed {
 	public void name1()
 	{
 		name.click();
-		name.sendKeys("Megha");
+		name.sendKeys("Megah");
 	}
 	
 	public void dateofbirth1()
 	{
 		dateofbirth.click();
-		dateofbirth.sendKeys("6/3/1997");
+		dateofbirth.sendKeys("06/03/1997");
 	}
 	public void mNumber()
 	{
-		mobileno.click();
+		
 		mobileno.sendKeys("7276844423");
 	}
 	
